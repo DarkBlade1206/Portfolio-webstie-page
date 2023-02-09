@@ -1,0 +1,140 @@
+@media screen and (max-width: 720px) {
+    header {
+        padding: 0;
+        height: auto;
+
+        .header-content {
+            padding-bottom: 6rem !important;
+
+            .right-header {
+                padding: 2rem !important;
+                // grid-row: 1;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .left-header {
+
+                .image {
+                    margin: 0 auto !important;
+                    width: 90% !important;
+                }
+
+
+
+            }
+
+        }
+
+
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+        .right-about{
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr;
+
+        }
+    }
+    .about-stats .progress-bars{
+      grid-template-columns: 1fr;
+      font-size:small;
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+
+    }
+    .main-title h2{
+        font-size: 3rem !important;
+       
+        .bg-text{
+            display: none;
+        }
+    }
+
+    .contact-content-con{
+        display: block;
+        padding-bottom: 6rem ;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+            .input-control-first{
+                display: block;
+                :last-child{
+                    margin-left: 0 ;
+                    margin-top: 1.5rem ;
+                }
+            }
+        }
+    }
+
+
+    .section{
+        padding: 2rem 2.5rem;
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+
+        .control {
+            margin: 1rem .3rem !important;
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    header {
+        padding: 0;
+        height: auto;
+
+        .header-content {
+            grid-template-columns: 1fr;
+            padding-bottom: 6rem !important;
+
+            .right-header {
+                padding: 2rem !important;
+                grid-row: 1;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .left-header {
+
+                .image {
+                    margin: 0 auto !important;
+                    width: 90% !important;
+                }
+
+                .h-shape {
+                    display: none;
+                    // width: 100% !important;
+
+                    // clip-path: none !important;
+                }
+
+            }
+
+        }
+
+
+    }
+}
